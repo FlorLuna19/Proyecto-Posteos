@@ -1,0 +1,73 @@
+body{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: rgb(44, 44, 83);
+	margin: 0px;
+}
+
+#navegador{
+	background-color: rgb(17, 13, 43);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+.contenedor-botones-usuario {
+	background-color: #262349;
+	padding: 10px;
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+}
+
+.contenedor-lista-posts {
+	box-shadow:inset 0px 39px 0px -24px #68fae2;
+	background-color: rgb(165, 233, 227);
+	height: 40px;
+	width: 280px;
+	margin: 15px;
+	padding: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+.boton-usuario {
+    box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background:linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 
+	font-size:15px;
+	padding:8px 5px;
+	width: 172px;
+
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	margin: 3px;
+	
+}
+
+.boton-usuario:hover{
+	font-weight: bold;
+	font-style: italic;
+}
+
+.post {/*
+	box-shadow:inset 0px 39px 0px -24px #a5cfc8;
+	background-color: rgb(208, 247, 243);
+	height: 100px;
+	width: 280px;
+	margin: 15px;
+	padding: 15px;
+	color: black;
+	font-weight: italic;
+*/
+}
+
